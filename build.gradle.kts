@@ -17,7 +17,7 @@ repositories {
         url = uri("https://maven.pkg.github.com/revanced/multidexlib2")
         credentials {
             username = "Laitinlok"
-            password = project.findProperty("gpr.key") as String? ?: System.getenv("GITHUB_TOKEN")
+            password = project.findProperty("gpr.key") as String? ?: System.getenv("GH_TOKEN")
         }
     }
 }
