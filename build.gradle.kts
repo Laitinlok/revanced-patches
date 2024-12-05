@@ -17,7 +17,7 @@ repositories {
         url = uri("https://maven.pkg.github.com/revanced/multidexlib2")
         credentials {
             username = "Laitinlok"
-            password = "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" 
+            password = "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" 
         }
     }
 }
