@@ -44,7 +44,7 @@ jobs:
       - name: Build with Gradle
         env:
           GITHUB_TOKEN: ${{ secrets.REPOSITORY_PUSH_ACCESS }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN  }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN  }}
         run: ./gradlew generateMeta clean --no-daemon
       - name: Setup semantic-release
         run: npm install --Force 
